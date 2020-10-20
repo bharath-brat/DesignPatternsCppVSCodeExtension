@@ -1,0 +1,146 @@
+{
+	"name": "designpatternscpp",
+	"displayName": "Design Patterns - C++",
+	"description": "Provides Design Pattern Snippets for C++",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:DesignPatternsCpp.CreateSingletonDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateBuilderDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateAbstractFactoryDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateAdapterDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateBridgeDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateChainOfResponsibilityDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateCommandDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateCompositerDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateDecoratorDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateFacadeDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateFactoryMethodDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateFlyweightDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateIteratorDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateMediatorDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateMementoDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateObserverDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreatePrototypeDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateProxyDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateStrategyDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateTemplateMethodDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateStateDesignPatternSnippetCpp",
+		"onCommand:DesignPatternsCpp.CreateVisitorDesignPatternSnippetCpp"
+	],
+	"main": "./extension.js",
+	"contributes": {
+			"commands": [
+				{
+					"command": "DesignPatternsCpp.CreateSingletonDesignPatternSnippetCpp",
+					"title": "Create Singleton Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateBuilderDesignPatternSnippetCpp",
+					"title": "Create Builder Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateAbstractFactoryDesignPatternSnippetCpp",
+					"title": "Create Abstract Factory Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateAdapterDesignPatternSnippetCpp",
+					"title": "Create Adapter Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateBridgeDesignPatternSnippetCpp",
+					"title": "Create Bridge Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateChainOfResponsibilityDesignPatternSnippetCpp",
+					"title": "Create Chain of Responsibilty Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateCommandDesignPatternSnippetCpp",
+					"title": "Create Command Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateCompositerDesignPatternSnippetCpp",
+					"title": "Create Composite Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateDecoratorDesignPatternSnippetCpp",
+					"title": "Create Decorator Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateFacadeDesignPatternSnippetCpp",
+					"title": "Create Facade Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateFactoryMethodDesignPatternSnippetCpp",
+					"title": "Create Factory Method Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateFlyweightDesignPatternSnippetCpp",
+					"title": "Create Flyweight Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateIteratorDesignPatternSnippetCpp",
+					"title": "Create Iterator Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateMediatorDesignPatternSnippetCpp",
+					"title": "Create Mediator Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateMementoDesignPatternSnippetCpp",
+					"title": "Create Memento Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateObserverDesignPatternSnippetCpp",
+					"title": "Create Observer Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreatePrototypeDesignPatternSnippetCpp",
+					"title": "Create Prototype Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateProxyDesignPatternSnippetCpp",
+					"title": "Create Proxy Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateStrategyDesignPatternSnippetCpp",
+					"title": "Create Strategy Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateTemplateMethodDesignPatternSnippetCpp",
+					"title": "Create Template Method Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateStateDesignPatternSnippetCpp",
+					"title": "Create State Design Pattern Snippet C++"
+				},
+				{
+					"command": "DesignPatternsCpp.CreateVisitorDesignPatternSnippetCpp",
+					"title": "Create Visitor Design Pattern Snippet C++"
+				}
+			]
+
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.50.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.9.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"typescript": "^4.0.2",
+		"vscode-test": "^1.4.0"
+	}
+}
