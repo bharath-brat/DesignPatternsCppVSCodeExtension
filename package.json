@@ -1,8 +1,8 @@
 {
 	"name": "designpatternscpp",
-	"displayName": "Design Patterns - C++",
-	"description": "Provides Design Pattern Snippets for C++",
-	"version": "0.0.1",
+	"displayName": "Design Patterns Support for C++",
+	"description": "Provides Design Pattern Code Snippets for C++",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.50.0"
 	},
