@@ -6,6 +6,11 @@
 	"engines": {
 		"vscode": "^1.50.0"
 	},
+	"publisher": "BharathKumarS",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com:bharath19957/DesignPatternsCppVSCodeExtension.git"
+	  },
 	"categories": [
 		"Other"
 	],
