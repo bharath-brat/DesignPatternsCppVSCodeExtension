@@ -1,8 +1,5 @@
 # DesignPatternsCpp README
-
-
-**Enjoy!**
-
+ 
 
 
 
