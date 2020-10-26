@@ -2,10 +2,11 @@
  VS Code Extension to create code snippets in C++ for Design Patterns, which helps the developer to get the initial structure of the classes.
 
 To Modify the code
-###Pre-requisites:
+
+### Pre-requisites:
 Node.js should be installed on your machine.
 
-###Commands in Extension:
+### Commands in Extension:
 ```
 DesignPatternsCpp.CreateSingletonDesignPatternSnippetCpp                Create Singleton Design Pattern Snippet C++		
 DesignPatternsCpp.CreateBuilderDesignPatternSnippetCpp	                Create Builder Design Pattern Snippet C++		
